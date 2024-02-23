@@ -1,0 +1,192 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFC017; /* Imposta lo sfondo su #FFC017 */
+    margin: 0; /* Rimuove il margine */
+    padding: 0; /* Rimuove il padding */
+    display: flex; /* Usa flexbox per il layout */
+    justify-content: space-between; /* Allinea gli elementi ai bordi */
+    align-items: center; /* Allinea verticalmente al centro */
+}
+header
+{
+    position: sticky;
+    top: 0;
+    background-color: #FFC017;
+    
+}
+#logo img {
+    margin: 80px;
+    width: 100%; /* Imposta la larghezza al 100% */
+    height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+}
+
+#navigazione{
+    margin: 80px;
+}
+
+#navigazione ul {
+    list-style: none; /* Rimuove i punti elenco */
+    padding: 0; /* Rimuove il padding */
+    margin: 0; /* Rimuove il margine */
+    display: flex; /* Usa flexbox per il layout */
+}
+
+#navigazione ul li {
+    margin-right: 20px; /* Aggiunge spazio tra gli elementi della lista */
+}
+
+#navigazione ul li:last-child {
+    margin-right: 0; /* Rimuove lo spazio a destra per l'ultimo elemento della lista */
+}
+
+h1,h4{
+    margin-left: 80px;
+}
+
+button{
+    background-color: #181919 ; /* Colore di sfondo del pulsante */
+    color: white; /* Colore del testo del pulsante */
+    border: none; /* Rimuove il bordo del pulsante */
+    padding: 20px 10px; /* Spaziatura interna del pulsante */
+    border-radius: 10px; /* Bordo arrotondato */
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+/* Stili per il pulsante */
+#navigazione ul li button {
+    background-color: #181919 ; /* Colore di sfondo del pulsante */
+    color: white; /* Colore del testo del pulsante */
+    border: none; /* Rimuove il bordo del pulsante */
+    padding: 10px 20px; /* Spaziatura interna del pulsante */
+    border-radius: 30px; /* Bordo arrotondato */
+    margin: 0 auto;
+  }
+
+#trending {
+    display: flex; /* Usa flexbox per il layout */
+    justify-content: flex-start; /* Allinea gli elementi a sinistra */
+    align-items: flex-start; /* Allinea gli elementi in alto */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+#trending div {
+    display: flex; /* Usa flexbox per il layout */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Allinea il testo al centro */
+}
+
+#trending p {
+    margin: 0; /* Rimuove il margine predefinito */
+    margin-top: 50px;
+}
+
+#trending img {
+    margin-right: 10px; /* Aggiunge un margine a destra dell'immagine per separarla dal testo */
+}
+
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+  }
+
+  .container-row{
+    display: flex;
+    justify-content:center;
+  }
+  
+.container-column {
+    flex: 1;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    width: 32%; /* Larghezza del 33.33% meno il margine laterale per tre colonne */
+  }
+  
+.contenitore {
+   display: flex;
+   align-items: center;
+  }
+
+  .numero {
+    margin-right: 10px; /* Aggiunge spazio a destra del numero */
+  }
+  
+  .nome {
+    margin-left: 10px; /* Aggiunge spazio a sinistra del nome */
+  }
+  
+.contenitore p {
+    margin: 0; /* Rimuove il margine predefinito */
+  }
+  
+.numero {
+    margin-right: 10px; /* Aggiunge uno spazio a destra per separare il numero dal nome */
+  }
+
+.contenitore img {
+    border-radius: 50%;
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.contenitore div{
+    display: flex;
+    flex-direction: column;
+}
+
+.numero-img{
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    margin-top: 50px; /* Spazio sopra il main */
+    background-color: white;
+}
+
+.immagine-nome {
+    margin-top: 30px;
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Spazio tra l'immagine e il testo */
+}
+
+.contenuto{
+    margin-top: 0;
+    margin: 80px;
+}
+
+.immagine-nome img {
+    width: 50px; /* Dimensione dell'immagine */
+    height: auto;
+    border-radius: 50%; /* Bordi arrotondati per l'immagine */
+    margin-right: 10px; /* Spazio a destra dell'immagine */
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
